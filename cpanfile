@@ -2,5 +2,4 @@
 
 requires 'Mojolicious::Lite';
 requires 'Plack::Builder';
-requires 'Plack::Middleware::WOVN', '0.04';
-
+requires 'Plack::Middleware::WOVN', '0.05';
