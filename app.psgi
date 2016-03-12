@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use Mojolicious::Lite;
-
 use Plack::Builder;
-use lib 'lib';
-
-# Documentation browser under "/perldoc"
-plugin 'PODRenderer';
 
 get '/' => sub {
     my $c = shift;
